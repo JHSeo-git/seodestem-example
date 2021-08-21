@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "packages": {
+    "@seodestem/core": {
+      "signature": "f3f14b5045b77bfdce67c858ac5a2cf1",
+      "workspace": true
+    },
+    "@seodestem/figma-api": {
+      "signature": "deb58a59fdb0292ce4828bdafb55b5fa",
+      "workspace": true
+    }
+  }
+}

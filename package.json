@@ -1,0 +1,16 @@
+{
+  "name": "seodestem-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.7.1",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@seodestem/core": "workspace:*",
+    "@seodestem/figma-api": "workspace:*",
+    "@figma/plugin-typings": "^1.30.0",
+    "dotenv": "^10.0.0"
+  }
+}
