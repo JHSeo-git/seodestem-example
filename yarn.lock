@@ -7,6 +7,19 @@
   resolved "https://registry.yarnpkg.com/@figma/plugin-typings/-/plugin-typings-1.30.0.tgz#2c71b99d0312d2859130d2d366f096acd88babe6"
   integrity sha512-KQQPrsUNoZKF9zUG6YvaQk528/LinTzjxCu4eoyOFhx10jdlOqvgLEU7hbVZZxtbKcEFjhUiC3edc185kfCKNw==
 
+"@seodestem/core@file:.yalc/@seodestem/core":
+  version "0.0.1"
+  dependencies:
+    dotenv "^10.0.0"
+
+"@seodestem/figma-api@file:.yalc/@seodestem/figma-api":
+  version "0.0.1"
+  dependencies:
+    "@figma/plugin-typings" "^1.30.0"
+    dotenv "^10.0.0"
+    is-plain-object "^5.0.0"
+    node-fetch "^2.6.1"
+
 "@types/node@^16.7.1":
   version "16.7.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.7.1.tgz#c6b9198178da504dfca1fd0be9b2e1002f1586f0"
@@ -16,6 +29,16 @@ dotenv@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
   integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
+
+is-plain-object@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-5.0.0.tgz#4427f50ab3429e9025ea7d52e9043a9ef4159344"
+  integrity sha512-VRSzKkbMm5jMDoKLbltAkFQ5Qr7VDiTFGXxYFXXowVj387GeGNOCsOH6Msy00SGZ3Fp84b1Naa1psqgcCIEP5Q==
+
+node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 typescript@^4.3.5:
   version "4.3.5"

@@ -4,13 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@seodestem/core": "workspace:*",
-    "@seodestem/figma-api": "workspace:*",
     "@types/node": "^16.7.1",
     "typescript": "^4.3.5"
   },
   "dependencies": {
     "@figma/plugin-typings": "^1.30.0",
+    "@seodestem/core": "file:.yalc/@seodestem/core",
+    "@seodestem/figma-api": "file:.yalc/@seodestem/figma-api",
     "dotenv": "^10.0.0"
   }
 }
